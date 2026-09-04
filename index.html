@@ -1,358 +1,199 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mohamed Amine Chouchene — Portfolio</title>
-    <link rel="icon" href="data:," />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="wrap header-inner">
-        <a class="mark" href="#top">MAC</a>
-        <nav class="main-nav">
-          <a href="#about">About</a>
-          <a href="#education">Education</a>
-          <a href="#projects">Projects</a>
-          <a href="#skills">Skills</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <a
-          class="resume-link"
-          href="Mohamed_Amine_Chouchene_Resume.pdf"
-          download
-          >Résumé ↓</a
-        >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed Amine Chouchene — Portfolio</title>
+  <link rel="icon" href="data:," />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="mark" href="#top">MAC</a>
+      <nav class="main-nav">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="resume-link" href="Mohamed_Amine_Chouchene_Resume.pdf" download>Résumé ↓</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <h1>Mohamed Amine<br />Chouchene</h1>
+        <p class="hero-sub">Computer Science student at TU Munich, working on backend systems, databases, and clean interfaces.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View projects</a>
+          <a class="btn btn-ghost" href="mailto:mohamed_amine.chouchene@tum.de">Get in touch</a>
+        </div>
+        <p class="hero-meta">Munich, Germany · Open to Werkstudent roles</p>
       </div>
-    </header>
+    </section>
 
-    <main id="top">
-      <!-- Hero -->
-      <section class="hero">
-        <div class="wrap hero-inner">
-          <h1>Mohamed Amine<br />Chouchene</h1>
-          <p class="hero-sub">
-            Computer Science student at TU Munich, working on backend systems,
-            databases, and clean interfaces.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#projects">View projects</a>
-            <a
-              class="btn btn-ghost"
-              href="mailto:mohamed_amine.chouchene@tum.de"
-              >Get in touch</a
-            >
-          </div>
-          <p class="hero-meta">Munich, Germany · Open to Werkstudent roles</p>
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="wrap about-grid">
+        <div class="panel monogram-panel" aria-hidden="true">
+          <span>MAC</span>
         </div>
-      </section>
-
-      <!-- About -->
-      <section class="section" id="about">
-        <div class="wrap about-grid">
-          <div class="panel monogram-panel" aria-hidden="true">
-            <span>MAC</span>
-          </div>
-          <div class="about-text">
-            <h2>About</h2>
-            <p>
-              I'm an Informatics student at the Technical University of Munich,
-              ranked first nationwide in the Tunisian Baccalaureate (Computer
-              Science track) and awarded a DAAD-affiliated scholarship for it.
-              I've worked with Java, C/C++, SQL, JavaScript, HTML and CSS across
-              coursework and personal projects, with a particular interest in
-              backend development, databases, and building interfaces that are
-              actually pleasant to use.
-            </p>
-            <p>
-              Right now I'm looking for a Werkstudent position where I can apply
-              what I've learned so far and keep growing alongside an experienced
-              team.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Education -->
-      <section class="section alt" id="education">
-        <div class="wrap">
-          <h2>Education</h2>
-          <div class="timeline">
-            <div class="timeline-item">
-              <div class="timeline-date">10.2024 – Present</div>
-              <div class="timeline-content">
-                <h3>Technical University of Munich</h3>
-                <p class="timeline-role">B.Sc. Informatics — Munich, Germany</p>
-                <p>
-                  Full software development lifecycle coursework — requirements
-                  analysis, architecture and design, implementation, testing,
-                  deployment, and DevOps — alongside algorithms, databases, IT
-                  security, and operating systems.
-                </p>
-              </div>
-            </div>
-            <div class="timeline-item">
-              <div class="timeline-date">09.2019 – 07.2023</div>
-              <div class="timeline-content">
-                <h3>Ben Arous High School</h3>
-                <p class="timeline-role">
-                  Baccalaureate, Computer Science — Ben Arous, Tunisia
-                </p>
-                <p>
-                  Ranked 1st nationwide in the Tunisian Baccalaureate (Computer
-                  Science track), earning a government scholarship in
-                  cooperation with DAAD. Built foundational web development and
-                  database skills with HTML, CSS, JavaScript, PHP, and SQL.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Projects -->
-      <section class="section" id="projects">
-        <div class="wrap">
-          <h2>Projects</h2>
-          <div class="project-grid">
-            <article class="project-card">
-              <div class="project-top">
-                <h3>Secure Memory Unit</h3>
-                <span class="project-date">04.2025 – 07.2025</span>
-              </div>
-              <p class="project-type">University team project (team of 3)</p>
-              <p>
-                Built a secure memory management system in C/C++, implementing
-                encryption and decryption mechanisms for controlled data access,
-                and working through memory management and system-level
-                programming challenges.
-              </p>
-              <ul class="tag-list">
-                <li>C</li>
-                <li>C++</li>
-                <li>Systems Security</li>
-              </ul>
-              <a class="project-link" href="#" target="_blank" rel="noopener"
-                >View on GitHub →</a
-              >
-            </article>
-
-            <article class="project-card">
-              <div class="project-top">
-                <h3>Git Workflow, Memory Debugging &amp; Containerization</h3>
-                <span class="project-date">2025</span>
-              </div>
-              <p class="project-type">Individual coursework exercise</p>
-              <p>
-                Resolved Git branch conflicts and restructured commit history
-                using merging, squashing, and cherry-picking. Debugged buffer
-                overflow and use-after-free bugs in a C application with GCC
-                AddressSanitizer, then fixed a broken Dockerfile and wrote a
-                multi-service Docker Compose setup.
-              </p>
-              <ul class="tag-list">
-                <li>Git</li>
-                <li>C</li>
-                <li>Docker</li>
-                <li>AddressSanitizer</li>
-              </ul>
-              <a class="project-link" href="#" target="_blank" rel="noopener"
-                >View on GitHub →</a
-              >
-            </article>
-
-            <article class="project-card">
-              <div class="project-top">
-                <h3>REST API with Spring Boot</h3>
-                <span class="project-date">2025</span>
-              </div>
-              <p class="project-type">Individual coursework exercise</p>
-              <p>
-                Implemented a full CRUD REST API in Spring Boot with a layered,
-                MVC-based architecture, built asynchronous client requests with
-                Spring WebFlux against a JavaFX front-end, and extended the
-                endpoints with query-parameter-based sorting.
-              </p>
-              <ul class="tag-list">
-                <li>Java</li>
-                <li>Spring Boot</li>
-                <li>REST</li>
-                <li>WebFlux</li>
-              </ul>
-              <a class="project-link" href="#" target="_blank" rel="noopener"
-                >View on GitHub →</a
-              >
-            </article>
-
-            <article class="project-card">
-              <div class="project-top">
-                <h3>This Portfolio</h3>
-                <span class="project-date">2024</span>
-              </div>
-              <p class="project-type">Personal project</p>
-              <p>
-                A responsive personal site built from scratch with plain HTML
-                and CSS — no frameworks — as a first exercise in layout systems,
-                responsive design, and typography.
-              </p>
-              <ul class="tag-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Responsive Design</li>
-              </ul>
-              <a
-                class="project-link"
-                href="https://github.com/amine2606/portfolio"
-                target="_blank"
-                rel="noopener"
-                >View on GitHub →</a
-              >
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- Skills -->
-      <section class="section alt" id="skills">
-        <div class="wrap">
-          <h2>Skills</h2>
-          <div class="skills-grid">
-            <div class="skill-group">
-              <h3>Languages</h3>
-              <ul class="tag-list">
-                <li>Java</li>
-                <li>C/C++</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>SQL</li>
-              </ul>
-            </div>
-            <div class="skill-group">
-              <h3>Web</h3>
-              <ul class="tag-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>PHP</li>
-                <li>JavaScript</li>
-              </ul>
-            </div>
-            <div class="skill-group">
-              <h3>Frameworks</h3>
-              <ul class="tag-list">
-                <li>Spring Boot</li>
-                <li>Spring WebFlux</li>
-              </ul>
-            </div>
-            <div class="skill-group">
-              <h3>Tools</h3>
-              <ul class="tag-list">
-                <li>Git/GitHub</li>
-                <li>Docker</li>
-                <li>IntelliJ IDEA</li>
-                <li>VS Code</li>
-                <li>Linux</li>
-              </ul>
-            </div>
-            <div class="skill-group">
-              <h3>Concepts</h3>
-              <ul class="tag-list">
-                <li>OOP</li>
-                <li>Unit Testing</li>
-                <li>Relational Databases</li>
-                <li>REST APIs</li>
-                <li>MVC &amp; Layered Architecture</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="achievement-panel">
-            <h3>DAAD Scholarship Recipient</h3>
-            <p>
-              National scholarship funded by the Tunisian government in
-              cooperation with DAAD, awarded for outstanding performance in the
-              Tunisian Baccalaureate (Computer Science track).
-            </p>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer" id="contact">
-      <div class="wrap footer-inner">
-        <div>
-          <h2>Let's talk</h2>
+        <div class="about-text">
+          <h2>About</h2>
           <p>
-            Open to Werkstudent opportunities in Munich and remote-friendly
-            teams.
+            I'm an Informatics student at the Technical University of Munich, ranked first
+            nationwide in the Tunisian Baccalaureate (Computer Science track) and awarded a
+            DAAD-affiliated scholarship for it. I've worked with Java, C/C++, SQL, JavaScript,
+            HTML and CSS across coursework and personal projects, with a particular interest
+            in backend development, databases, and building interfaces that are actually
+            pleasant to use.
+          </p>
+          <p>
+            Right now I'm looking for a Werkstudent position where I can apply what I've
+            learned so far and keep growing alongside an experienced team.
           </p>
         </div>
-        <ul class="contact-list">
-          <li>
-            <a href="mailto:mohamed_amine.chouchene@tum.de">
-              <svg
-                viewBox="0 0 24 24"
-                width="18"
-                height="18"
-                aria-hidden="true"
-              >
-                <path
-                  fill="currentColor"
-                  d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13Zm2.2.5 7.5 5.8a.7.7 0 0 0 .86 0L20.06 6H4.2ZM20 8.1l-6.98 5.4a2.7 2.7 0 0 1-3.3 0L4 8.1V18h16V8.1Z"
-                />
-              </svg>
-              mohamed_amine.chouchene@tum.de
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/mohamedchouchene"
-              target="_blank"
-              rel="noopener"
-            >
-              <svg
-                viewBox="0 0 24 24"
-                width="18"
-                height="18"
-                aria-hidden="true"
-              >
-                <path
-                  fill="currentColor"
-                  d="M6.94 5.5a1.94 1.94 0 1 1-3.88 0 1.94 1.94 0 0 1 3.88 0ZM3.4 8.75h3.12V20.5H3.4V8.75Zm6.02 0h2.99v1.6h.04c.42-.77 1.44-1.6 2.96-1.6 3.17 0 3.75 2.03 3.75 4.68v6.07h-3.12v-5.38c0-1.28-.02-2.93-1.8-2.93-1.8 0-2.08 1.4-2.08 2.84v5.47H9.42V8.75Z"
-                />
-              </svg>
-              linkedin.com/in/mohamedchouchene
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/amine2606"
-              target="_blank"
-              rel="noopener"
-            >
-              <svg
-                viewBox="0 0 24 24"
-                width="18"
-                height="18"
-                aria-hidden="true"
-              >
-                <path
-                  fill="currentColor"
-                  d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.15-1.11-1.46-1.11-1.46-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.53 9.53 0 0 1 5 0c1.9-1.29 2.74-1.02 2.74-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"
-                />
-              </svg>
-              github.com/amine2606
-            </a>
-          </li>
-        </ul>
-        <p class="copyright">© 2024–2026 Mohamed Amine Chouchene</p>
       </div>
-    </footer>
-  </body>
+    </section>
+
+    <!-- Education -->
+    <section class="section alt" id="education">
+      <div class="wrap">
+        <h2>Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">10.2024 – Present</div>
+            <div class="timeline-content">
+              <h3>Technical University of Munich</h3>
+              <p class="timeline-role">B.Sc. Informatics — Munich, Germany</p>
+              <p>
+                Full software development lifecycle coursework — requirements analysis,
+                architecture and design, implementation, testing, deployment, and DevOps —
+                alongside algorithms, databases, IT security, and operating systems.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">09.2019 – 07.2023</div>
+            <div class="timeline-content">
+              <h3>Ben Arous High School</h3>
+              <p class="timeline-role">Baccalaureate, Computer Science — Ben Arous, Tunisia</p>
+              <p>
+                Ranked 1st nationwide in the Tunisian Baccalaureate (Computer Science track),
+                earning a government scholarship in cooperation with DAAD. Built foundational
+                web development and database skills with HTML, CSS, JavaScript, PHP, and SQL.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="wrap">
+        <h2>Projects</h2>
+        <div class="project-grid">
+
+          <article class="project-card">
+            <div class="project-top">
+              <h3>Secure Memory Unit</h3>
+              <span class="project-date">04.2025 – 07.2025</span>
+            </div>
+            <p class="project-type">University team project (team of 3)</p>
+            <p>
+              Built a secure memory management system in C/C++, implementing encryption
+              and decryption mechanisms for controlled data access, and working through
+              memory management and system-level programming challenges.
+            </p>
+            <ul class="tag-list">
+              <li>C</li><li>C++</li><li>Systems Security</li>
+            </ul>
+            <a class="project-link" href="https://github.com/amine2606/SecureMemoryUnit-Project" target="_blank" rel="noopener">View on GitHub →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section alt" id="skills">
+      <div class="wrap">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Languages</h3>
+            <ul class="tag-list"><li>Java</li><li>C/C++</li><li>JavaScript</li><li>Python</li><li>SQL</li></ul>
+          </div>
+          <div class="skill-group">
+            <h3>Web</h3>
+            <ul class="tag-list"><li>HTML</li><li>CSS</li><li>PHP</li><li>JavaScript</li></ul>
+          </div>
+          <div class="skill-group">
+            <h3>Frameworks</h3>
+            <ul class="tag-list"><li>Spring Boot</li><li>Spring WebFlux</li></ul>
+          </div>
+          <div class="skill-group">
+            <h3>Tools</h3>
+            <ul class="tag-list"><li>Git/GitHub</li><li>Docker</li><li>IntelliJ IDEA</li><li>VS Code</li><li>Linux</li></ul>
+          </div>
+          <div class="skill-group">
+            <h3>Concepts</h3>
+            <ul class="tag-list"><li>OOP</li><li>Unit Testing</li><li>Relational Databases</li><li>REST APIs</li><li>MVC &amp; Layered Architecture</li></ul>
+          </div>
+        </div>
+
+        <div class="achievement-panel">
+          <h3>DAAD Scholarship Recipient</h3>
+          <p>
+            National scholarship funded by the Tunisian government in cooperation with
+            DAAD, awarded for outstanding performance in the Tunisian Baccalaureate
+            (Computer Science track).
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="wrap footer-inner">
+      <div>
+        <h2>Let's talk</h2>
+        <p>Open to Werkstudent opportunities in Munich and remote-friendly teams.</p>
+      </div>
+      <ul class="contact-list">
+        <li>
+          <a href="mailto:mohamed_amine.chouchene@tum.de">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13Zm2.2.5 7.5 5.8a.7.7 0 0 0 .86 0L20.06 6H4.2ZM20 8.1l-6.98 5.4a2.7 2.7 0 0 1-3.3 0L4 8.1V18h16V8.1Z"/></svg>
+            mohamed_amine.chouchene@tum.de
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/mohamedchouchene" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M6.94 5.5a1.94 1.94 0 1 1-3.88 0 1.94 1.94 0 0 1 3.88 0ZM3.4 8.75h3.12V20.5H3.4V8.75Zm6.02 0h2.99v1.6h.04c.42-.77 1.44-1.6 2.96-1.6 3.17 0 3.75 2.03 3.75 4.68v6.07h-3.12v-5.38c0-1.28-.02-2.93-1.8-2.93-1.8 0-2.08 1.4-2.08 2.84v5.47H9.42V8.75Z"/></svg>
+            linkedin.com/in/mohamedchouchene
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/amine2606" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.15-1.11-1.46-1.11-1.46-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.53 9.53 0 0 1 5 0c1.9-1.29 2.74-1.02 2.74-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+            github.com/amine2606
+          </a>
+        </li>
+      </ul>
+      <p class="copyright">© 2024–2026 Mohamed Amine Chouchene</p>
+    </div>
+  </footer>
+
+</body>
 </html>
